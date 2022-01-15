@@ -34,4 +34,5 @@ Deep Snake那边`snakenet/lib/csrc`里面的包可能是要自行编译的，可
 运行的`demo.py`在`Towards-Realtime-MOT-master`里面
 
 按道理来说是可以用`python demo.py --input-video filename`来运行的，但是上次试了好像不行，那就去`Towards-Realtime-MOT-master`文件夹打开`demo.py`第78行改`--input-video`参数的default值吧
+
 然后一路上会有很多关于找不到文件的报错，找到相应位置代码后改成自己电脑上的路径就好了
