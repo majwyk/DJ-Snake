@@ -15,9 +15,9 @@ conda env create -f jde_env.yaml
 
 `lib`文件夹下是一些pip装不上的包，可以直接用这里的包来本地安装
 
-Deep Snake那边`snakenet/lib/csrc`里面的包可能是要自行编译的，可以参考：
+Deep Snake那边`snakenet/lib/csrc`里面的包可能是要自行编译的，**切记编译之前要进入自己的虚拟环境！！**
 
-**切记编译之前要进入自己的虚拟环境！！**
+配置过程可以参考：
 
 [官方环境配置](https://github.com/zju3dv/snake/blob/master/INSTALL.md)
 
